@@ -1,8 +1,10 @@
 # Raspberry Pi Bird Box Camera
 
-Place a Raspberry Pi with infrared camera in a bird box and watch young birds grow up, via a YouTube livestream.
+Place a [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) with [infrared camera](https://www.raspberrypi.org/products/pi-noir-camera-v2/) in a bird box and watch young birds grow up, via a YouTube livestream.
 
 ![Great tit nest](img/nest.png)
+
+Also see: my [YouTube playlist](https://www.youtube.com/playlist?list=PLrKDdkHsXac06Yh9iYJ-0kTfuIdsKG7Y2) of great tit nest footage.
 
 ## Requirements
 
@@ -48,9 +50,9 @@ You may use another streaming service, but my Pi streams the nest footage to You
 
 4. You'll now get a streaming key; copy it.
 
-   ![Streaming key](img/key.jpg)
+   ![Streaming key](img/key.png)
 
-5. Clone this [repository](https://github.com/garraflavatra/rpi_birdbox_camera) (or just the two files `youtube.py` and `youtube-key.txt`) to `/opt/birdbox/`.
+5. Clone this [repository](https://github.com/garraflavatra/rpi_birdbox_camera) (or just the two files [`youtube.py`](https://github.com/garraflavatra/rpi_birdbox_camera/blob/main/youtube.py) and [`youtube-key.txt`](https://github.com/garraflavatra/rpi_birdbox_camera/blob/main/youtube-key.txt)) to `/opt/birdbox/`.
 
 6. Paste the streaming key into `youtube-key.txt` and replace all other content with it.
 
@@ -64,7 +66,7 @@ You may use another streaming service, but my Pi streams the nest footage to You
 
    ![An empty nest](img/empty.png)
 
-   _Yes, there's been a [great tit](https://en.wikipedia.org/wiki/Great_tit) family here before.
+   _Yes, there's been a [great tit](https://en.wikipedia.org/wiki/Great_tit) family here before._
 
 ---
 
